@@ -7,9 +7,34 @@ html
     .all
       .header
         block header
+        .topHeader
+          a(href="/") Home
+          a(href="/aboutMe") About me
+        .middleHeader
+          .middleHeaderLeft
+            .logo
+              a(href="/") JRG
+          .middleHeaderMiddle
+            .navigation
+              h1 Welcome To My Site!
+          .middleHeaderRight
+            .search
+              //input(type="text") Search
+        .bottomHeader
       .content
         block content
           .left
+            .myLinks
+              h3 My Links
+              ul
+                li 
+                  a(href="http://jackiergleason.com") My Old Drupal Site
+                li
+                  a(href="http://whatever.blogspot.com") My Tutorail Site
+                li
+                  a(href="http://github.com") My GitHub Account
+                li
+                  a(href="https://docs.google.com/document/edit?id=1MLnPZYdkDdITFDJNpPyn1kwjePum-M05qc5RfSYV6sI") My Resume
             block left
           .middle
             block middle

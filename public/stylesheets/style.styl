@@ -9,25 +9,86 @@ body
     height: 100%
     padding: 10px
     background-color:white
+    width:800px
+    margin-left: auto
+    margin-right: auto
     .header 
       width: 100%
-      height: 100px
-      h1
-        width: 300 px
-        margin-left: auto
-        margin-right: auto
+      height: 110px
+      font-family: "Arial","Helvetica",sans-serif
+      .topHeader
+        height:30px
+        a
+          float: left
+          padding: 7px
+      .middleHeader
+        height:50px
+        padding-left: 7px
+        div
+          float:left
+          height: 80px
+        .middleHeaderLeft
+          width: 200px
+          .logo
+            background-color:grey
+            width: 115px
+            margin-top: auto
+            margin-bottom:auto
+            text-align:center
+            -webkit-border-radius: 7px;
+            -moz-border-radius: 7px;
+            border-radius: 7px;
+            a
+              font-size: 2em
+              color: white
+              text-decoration: none
+              line-height: 80px
+        .middleHeaderMiddle
+          width:443px
+          .navigation
+            padding-left:15px 
+            line-height: 80px
+            p
+              margin:0
+        .middleHeaderRight
+          width:150px
+          float: right
+      .bottomHeader
+        height:30px
     .content
       height: 500px
+      width: 800px
       div
         padding 5px
       .left
         width: 200px
         float: left
+        padding-left: 7px
+        .myLinks
+          background-color: #F5F5F1
+          padding-bottom: 10px
+          -webkit-border-radius: 7px;
+          -moz-border-radius: 7px;
+          border-radius: 7px;
+          ul
+            list-style-type: none
+            padding: 0
+            margin: 0
+            li
+              border-top: 2px solid white
+              padding:5px
+              a
+                text-decoration: none
+                color: black
+
       .middle
         float:left
+        padding-left: 7px
+        width: 415px
       .right 
-        width:100px
+        width:150px
         float:right
+        height: 100%
     .footer
       height: 75px
 a
