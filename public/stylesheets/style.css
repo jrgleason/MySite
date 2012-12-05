@@ -19,15 +19,24 @@ body .all .header {
   height: 110px;
   font-family: "Arial", "Helvetica", sans-serif;
 }
-body .all .header .topHeader {
+body .all .header .topHeader div {
   height: 30px;
+  float: left;
 }
-body .all .header .topHeader a {
+body .all .header .topHeader .leftTopHeader {
+  width: 200px;
+  float: left;
+}
+body .all .header .topHeader .middleTopHeader {
+  padding-left: 15px;
+}
+body .all .header .topHeader .middleTopHeader a {
   float: left;
   padding: 7px;
 }
 body .all .header .middleHeader {
-  height: 50px;
+  float: none;
+  clear: both;
   padding-left: 7px;
 }
 body .all .header .middleHeader div {
